@@ -34,3 +34,24 @@ h1, h2, h3, h4, h5, h6{
 	background-color: rgba(209, 158, 244, .5);
 	border-radius: 10px;
 	}
+middle-section{
+	text-align: right;
+	}
+.first-circle{
+	float: right;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	}
+.second-circle{
+	float: left;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	}
+.third-circle{
+	float: right;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	}
