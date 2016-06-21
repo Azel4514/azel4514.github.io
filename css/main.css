@@ -1,7 +1,36 @@
 body {
-	font-family: 'Crimson Text', serif;	
-}
-
+	font-family: 'Amatic SC', cursive;
+	font-size: 150%;
+	}
 p {
-	font-family: 'Indie Flower', cursive;
-}
+	font-family: 'Inconsolata', ;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	}
+h1, h2, h3, h4, h5, h6{
+	margin-top: 10px;
+    margin-bottom: 5px;
+	}
+
+.headline {
+	padding:1px 5px 1px 5px;
+	margin: 12.5px 50px 12.5px 50px;
+	background-color: rgba(236, 218, 239, .7);
+	text-align: center;
+	border-radius: 5px;
+	font-size: 375%;
+	}
+.headline-image{
+	display: block;
+	background-image: url("../img/bg4.gif");
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 5px 25px 5px 25px;
+	margin: 5px 10px 5px 10px;
+	}
+.body{
+	padding:1px 5px 1px 5px;
+	margin: 6.25px 25px 6.25px 25px;
+	background-color: rgba(209, 158, 244, .5);
+	border-radius: 10px;
+	}
