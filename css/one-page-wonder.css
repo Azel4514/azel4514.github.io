@@ -15,6 +15,7 @@ body {
     text-align: center;
     background-image: url(../img/bg7.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .headline {
@@ -194,3 +195,6 @@ footer {
     font-family: 'Special Elite', cursive;
 }
 
+.container{
+    background-color: transparent;
+}
