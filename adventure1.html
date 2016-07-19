@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adventure #1</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#startButton").click(function(){
+      $("#scene1").fadeIn(2000);
+      $("#begin").hide();
+      $("#title").hide();
+      $("#startButton").hide();
+    });
+    $("#firstLeft").click(function(){
+    $("#scene1").hide();
+    $("#firstDeath").fadeIn(2000);
+      });
+    $("#firstRight").click(function(){
+    $("#scene1").hide();
+    $("#scene2").fadeIn(2000);
+    });
+    $("#secondLeft").click(function(){
+    $("#scene2").hide();
+    $("#scene3").fadeIn(2000);
+      });
+    $("#secondRight").click(function(){
+    $("#scene2").hide();
+    $("#secondDeath").fadeIn(2000);
+    });
+    $("#thirdDoors").click(function(){
+    $("#scene3").hide();
+    $("#thirdDeath").fadeIn(2000);
+      });
+    $("#thirdStraight").click(function(){
+      $("#scene3").hide();
+      $("#scene4").fadeIn(2000);
+    });
+    $("#fourthMain").click(function(){
+    $("#scene4").hide();
+    $("#fourthDeath").fadeIn(2000);
+    });
+    $("#fourthBack").click(function(){
+      $("#scene4").hide();
+      $("#scene5").fadeIn(2000);
+    });
+    $("#tryAgain").click(function(){
+    $("#firstDeath").hide();
+    $("#secondDeath").hide();
+    $("#thirdDeath").hide();
+    $("#fourthDeath").hide();
+    $("#scene1").fadeIn(1000);
+    });
+    });
+</script>
+</head>
+<body background ="http://www.lovethesepics.com/wp-content/uploads/2013/10/Spooky-Waverly-Hills-corridor.jpg" style= "background-position: top center; color: white;">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #29003A;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Welcome</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html #about">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html #services">Experiences </a>
+                    </li>
+                    <li>
+                        <a href="index.html #contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<!-- Codepen -->
+  <center>
+    <h1 id="title">Welcome To Lab #7</h1>
+    <h3 id="begin">Are you ready to face your fears?</h3>
+    <button id="startButton">Start</button>
+  </center>
+<!--   Living Scenes -->
+<div style="display: none;">
+  <div id="scene1">
+    <h3>Waking Up</h3>
+    <p>A throbbing pain forced you out of a realm of sleep to a reality that you didn't remember. You now laid in a small bed. A fog memory came into view. You saw the same room you are in but cleaned. The view soon vanished to reviled the opposite. The room seemed abandoned; small plants and decaying drywall. The room was pitiful.</p>
+    <p>You stood up to see the ground was wet. The liquid was too thick the be water. You stumbled a bit as you walk to the door. The door was left ajar. You push it open.</p>
+    <button id="firstLeft">Left</button>
+    <button id="firstRight">Right</button>
+  </div>
+  <div id="scene2">
+    <h3>Another door</h3>
+    <p>You walk for a while. Snippets of memories swarmed your head. You reached the end of this path. You are left with two doors. Both seem unused and rusted. </p>
+    <p>One has dents that bring an image of an immense creature clawing its was out from the other side (left). The door held one finishing touch, an out of place "DO NOT ENTER" sign.</p>
+    <p>The other door holds a small window (right). The window is broken. There is what seems to be blood and flesh. You know not if it's human or not.</p>
+    <button id="secondLeft">Left</button>
+    <button id="secondRight">Right</button>
+  </div>
+  <div id="scene3">
+    <h3>Hallway</h3>
+    <p>The door leads you to a hallway lined with numerous doors. Each door possesses a small window and several locks. There is an awful stench coming from the doors, yet you are compelled to open them. Do you give in to the need or do you continue down the hallway into the emanating darkness?</p>
+    <button id="thirdDoors">Enter</button>
+    <button id="thirdStraight">Go Straight</button>
+  </div>
+  <div id="scene4">
+    <h3>Last Option</h3>
+    <p>The door led you to the main office. You can see the doors from the main entrance. To your left you knotice a hall way towards the back exit. Witch do you take?</p>
+    <p></p>
+    <p></p>
+    <button id="fourthMain">Main Entrance</button>
+    <button id="fourthBack">Back Exit</button>
+  </div>
+  <div id="scene5">
+    <h2>You made it out alive. But are you truly free?</h2>
+    <h3>The End</h3>
+  </div>
+<!--   Death scenes -->
+  <div id="firstDeath">
+    <h2>Predicted result. You die. Try again.</h2>
+    <button id="tryAgain">Try Again</button>
+  </div>
+  <div id="secondDeath">
+    <h2>It has HUMAN FLESH. WHAT ARE YOU THINKING. Try again.</h2>
+    <button id="tryAgain">Try Again</button>
+  </div>
+  <div id="thirdDeath">
+    <h2>There was a starving animal. It ate you. Try again.</h2>
+    <button id="tryAgain">Try Again</button>
+  </div>
+  <div id="fourthDeath">
+    <h2>Something was waiting for you at the main entrance. Try again.</h2>
+    <button id="tryAgain">Try Again</button>
+  </div>
+</div>
+</body>
+
+</html>
+
