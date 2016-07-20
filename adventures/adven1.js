@@ -1,8 +1,9 @@
 $(document).ready(function(){
     $("#startButton").click(function(){
     $("#scene1").fadeIn(2000);
-    $("#begin").hide();
+    $(".begin").hide();
     $("#title").hide();
+    $("startPara").hide();
     $("#startButton").hide();
   });
   $("#firstLeft").click(function(){
@@ -43,14 +44,14 @@ $(document).ready(function(){
   });
   $("#tryAgain2").click(function(){
     $("#secondDeath").hide();
-    $("#scene2").fadeIn(1000);
+    $("#scene1").fadeIn(1000);
   });
   $("#tryAgain3").click(function(){
     $("#thirdDeath").hide();
-    $("#scene3").fadeIn(1000);
+    $("#scene1").fadeIn(1000);
   });
   $("#tryAgain4").click(function(){
     $("#fourthDeath").hide();
-    $("#scene4").fadeIn(1000);
+    $("#scene1").fadeIn(1000);
   });
 });
