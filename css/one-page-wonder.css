@@ -18,6 +18,19 @@ body {
     background-position: center;
 }
 
+h3, h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+}
+
+.img-responsive {
+    border-image: url("../img/P.png");
+    border-image-width: 5px;
+}
+
 .headline {
     padding: 120px 0;
 }
