@@ -18,6 +18,12 @@ body {
     background-position: center;
 }
 
+.pr-bg {
+    background-image: url(../img/bg13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 h3, h1 {
     font-family: 'Indie Flower', cursive;
 }
