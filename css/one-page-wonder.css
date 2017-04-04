@@ -9,6 +9,10 @@ body {
     background-color: #F4ECF7;
 }
 
+#pr2-box, #pr3-box, #pr4-box, #pr5-box {
+    display: none;
+}
+
 .header-image {
     display: block;
     width: 100%;
@@ -217,3 +221,4 @@ footer {
 .container{
     background-color: transparent;
 }
+
