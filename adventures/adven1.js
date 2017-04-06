@@ -31,7 +31,7 @@ $(document).ready(function(){
     $("#scene4").fadeIn(2000);
   });
   $("#fourthMain").click(function(){
-    $("#scene4").hide();  
+    $("#scene4").hide();
     $("#fourthDeath").fadeIn(2000);
   });
   $("#fourthBack").click(function(){
