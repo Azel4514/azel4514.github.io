@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5{
 	float: right;
 	position: absolute;
 	bottom: 90%;
-	left: 97%; 
+	left: 97%;
 }
 
 #audio{
@@ -50,9 +50,7 @@ button{
 }
 
 .footer{
-	position: absolute;
+	position: relative;
 	font-size: 50%;
 	text-align: center;
-	left: 33%;
-	bottom: 3%
 }
