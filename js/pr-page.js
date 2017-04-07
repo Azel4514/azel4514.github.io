@@ -1,37 +1,87 @@
 $(document).ready(function(){
-	$("#pr0-dis").click(function(){
-		$("#pr2-box").hide();
-		$("#pr3-box").hide();
-		$("#pr4-box").hide();
-		$("#pr5-box").hide();
-		$("#pr1-box").fadeIn(50);
-	});
-	$("#pr1-dis").click(function(){
+	/* Fist Project */
+	$("#pr1_1-dis").click(function(){
 		$("#pr1-box").hide();
-		$("#pr3-box").hide();
-		$("#pr4-box").hide();
-		$("#pr5-box").hide();
-		$("#pr2-box").fadeIn(50);
+		$("#pr2-box").show();
 	});
-	$("#pr2-dis").click(function(){
+	$("#pr2_1-dis").click(function(){
 		$("#pr1-box").hide();
-		$("#pr2-box").hide();
-		$("#pr4-box").hide();
-		$("#pr5-box").hide();
-		$("#pr3-box").fadeIn(50);
+		$("#pr3-box").show();
 	});
-	$("#pr3-dis").click(function(){
+	$("#pr3_1-dis").click(function(){
 		$("#pr1-box").hide();
-		$("#pr2-box").hide();
-		$("#pr3-box").hide();
-		$("#pr5-box").hide();
-		$("#pr4-box").fadeIn(50);
+		$("#pr4-box").show();
 	});
-	$("#pr4-dis").click(function(){
+	$("#pr4_1-dis").click(function(){
 		$("#pr1-box").hide();
-		$("#pr2-box").hide();
-		$("#pr3-box").hide();
-		$("#pr4-box").hide();
-		$("#pr5-box").fadeIn(50);
+		$("#pr5-box").show();
 	});
+	/* Second Project */	
+	$("#pr0_2-dis").click(function(){
+		$("#pr2-box").hide();
+		$("#pr1-box").show();
+	});
+	$("#pr2_2-dis").click(function(){
+		$("#pr2-box").hide();
+		$("#pr3-box").show();
+	});
+	$("#pr3_2-dis").click(function(){
+		$("#pr2-box").hide();
+		$("#pr4-box").show();
+	});
+	$("#pr4_2-dis").click(function(){
+		$("#pr2-box").hide();
+		$("#pr5-box").show();
+	});
+	/* Third Project */
+	$("#pr0_3-dis").click(function(){
+		$("#pr3-box").hide();
+		$("#pr1-box").show();
+	});
+	$("#pr1_3-dis").click(function(){
+		$("#pr1-box").hide();
+		$("#pr2-box").show();
+	});
+	$("#pr3_3-dis").click(function(){
+		$("#pr3-box").hide();
+		$("#pr4-box").show();
+	});
+	$("#pr4_3-dis").click(function(){
+		$("#pr3-box").hide();
+		$("#pr5-box").show();
+	});
+	/* Fourth Project */
+	$("#pr0_4-dis").click(function(){
+		$("#pr4-box").hide();
+		$("#pr1-box").show();
+	});
+	$("#pr1_4-dis").click(function(){
+		$("#pr4-box").hide();
+		$("#pr2-box").show();
+	});
+	$("#pr2_4-dis").click(function(){
+		$("#pr4-box").hide();
+		$("#pr3-box").show();
+	});
+	$("#pr4_4-dis").click(function(){
+		$("#pr4-box").hide();
+		$("#pr5-box").show();
+	});
+	/* Fifth Project */
+	$("#pr0_5-dis").click(function(){
+		$("#pr5-box").hide();
+		$("#pr1-box").show();
+	});
+	$("#pr1_5-dis").click(function(){
+		$("#pr5-box").hide();
+		$("#pr2-box").show();
+	});
+	$("#pr2_5-dis").click(function(){
+		$("#pr5-box").hide();
+		$("#pr3-box").show();
+	});
+	$("#pr3_5-dis").click(function(){
+		$("#pr5-box").hide();
+		$("#pr4-box").show();
+	});	
 });
