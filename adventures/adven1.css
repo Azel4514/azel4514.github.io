@@ -27,13 +27,10 @@ h1, h2, h3, h4, h5{
 #homeButton{
 	float: right;
 	position: absolute;
-<<<<<<< HEAD
 	bottom: 90%;
 	left: 97%;
-=======
 	top: 5px;
-	left: 5px; 
->>>>>>> origin/master
+	left: 5px;
 }
 
 #audio{
